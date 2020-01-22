@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import CoreData
 
 protocol PostsListPresenterProtocol: class {
     func getPostsData()

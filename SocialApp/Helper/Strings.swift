@@ -17,7 +17,9 @@ public struct Keys{
     posts = "posts",
     title = "title",
     description = "description",
-    save = "save"
+    save = "save",
+    delete = "delete",
+    update = "update"
     
     
 }
@@ -30,7 +32,12 @@ struct EnglishStrings {
         Keys.welcome : "Welcome to",
         Keys.socialApp : "Social App",
         Keys.lang : "Languge",
-        Keys.posts : "Posts"
+        Keys.posts : "Posts",
+        Keys.title : "Title",
+        Keys.description : "Description",
+        Keys.save : "Save",
+        Keys.delete : "Delete",
+        Keys.update : "Update"
       
     ]
 }
@@ -40,7 +47,12 @@ struct ArabicStrings {
         Keys.welcome : "مرحبا في",
         Keys.socialApp : "الابليكيشن",
         Keys.lang : "اللغة",
-        Keys.posts : "المنشورات"
+        Keys.posts : "المنشورات",
+        Keys.title : "عنوان",
+        Keys.description : "وصف",
+        Keys.save : "حفظ",
+        Keys.delete : "مسح",
+        Keys.update : "تعديل"
         
     ]
 }

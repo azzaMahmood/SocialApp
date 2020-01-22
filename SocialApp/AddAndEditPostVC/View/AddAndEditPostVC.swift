@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class AddAndEditPostVC: BaseVC {
     
@@ -15,6 +16,10 @@ class AddAndEditPostVC: BaseVC {
     @IBOutlet weak var titleTxt: UITextField!    
     @IBOutlet weak var bodyDescription: UITextView!
    
+    
+    //   MARK:- Properties
+
+    
     //     MARK:- Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
